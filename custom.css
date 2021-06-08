@@ -1,0 +1,48 @@
+.slider{
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg-header.jpg");
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-size: cover;
+}
+.text-slider>h5{
+    border: 2px solid white;
+    padding: 10px;
+    width: max-content;
+    font-family: monospace;
+}
+.text-slider>h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.mt-80px{
+    margin-top: -80px;
+}
+.mt40px{
+    margin-top: 40px;
+}
+.number{
+  opacity: 0.1;
+  font-size: 130px;
+  line-height: 120px;
+  position: absolute;
+  top: 20px;
+}
+.hover-style{
+    
+}
+.hover-style:hover{
+    background-image: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    color: white;
+}
+.button-style{
+    background-image: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    transition: transform .6s;
+}
+.button-style:hover{
+    transform: translate(0px,-5px);
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
